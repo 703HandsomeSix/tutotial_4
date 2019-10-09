@@ -11,5 +11,12 @@ public class TestCalc{
     {
         assertTrue(Calc.add(3,2)==5);
     }
+
+    @Test
+    public void testsubtract()
+    {
+	assertTrue(Calc.subtract(3,2)==1);
+    }
+
 }
 
